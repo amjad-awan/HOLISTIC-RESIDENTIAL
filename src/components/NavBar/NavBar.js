@@ -42,10 +42,10 @@ const NavBar = () => {
         </ul>
         <div className="__navbar-caller w-[200px]   text-center">
           <a
-            href="tel:0302754363"
+            href="tel:305-877-3961"
             className="__noto  flex justify-center text-[30px] text-[#fff] px-[30px] items-center rounded-[40px] h-[60px] bg-[#056693]"
           >
-            <MdCall /> 0302754363
+            <MdCall /> 305-877-3961
           </a>
         </div>
       </div>
