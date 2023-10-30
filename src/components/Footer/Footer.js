@@ -9,10 +9,10 @@ const Footer = () => {
           About Us
         </h3>
         <p className="__robot text-[#fff] font-[400] leading-7 text-[18px]">
-          At Blessed Vally Residence, we are firm believers in enhancing your
-          quality of life to its fullest potential. Our commitment to achieving
-          this is rooted in pioneering approaches, individualized attention, and
-          a deep sense of empathy.
+          At holistic residential home care, we are firm believers in enhancing
+          your quality of life to its fullest potential. Our commitment to
+          achieving this is rooted in pioneering approaches, individualized
+          attention, and a deep sense of empathy.
         </p>
       </div>
       <div className="">
@@ -83,7 +83,7 @@ const Footer = () => {
       </div>
       <div className="w-[100%] col-span-4 h-[1px] bg-[#c5c5c5]"></div>
       <p className="text-center col-span-4 text-[#fff] ">
-        © Copyright 2023 HOLISTIC RESIDENTIAL HOME CARE | Made By DOVILAS
+        © Copyright 2023 holistic residential home care | Made By DOVILAS
         ENTERPRISES, LLC
       </p>
     </div>

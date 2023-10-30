@@ -6,7 +6,6 @@ import { IoMailOutline } from "react-icons/io5";
 import { FaHandHoldingMedical, FaUserNurse } from "react-icons/fa";
 import { HiUserGroup } from "react-icons/hi";
 
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -55,10 +54,10 @@ const ServiceSlider = () => {
               recruitment
             </h2>
             <p className="font-[400] text-[18px] text-[#2D2929] leading-[35px] ">
-              Working for Blessed Vally Residence is not only rewarding, but it
-              is satisfying. We value our staff and provide them with the right
-              tools they need to do their work. Whether its an office job or
-              field job, we are all a family.
+              Working for holistic residential home care is not only rewarding,
+              but it is satisfying. We value our staff and provide them with the
+              right tools they need to do their work. Whether its an office job
+              or field job, we are all a family.
             </p>
           </div>
         </SwiperSlide>
@@ -97,14 +96,14 @@ const ServiceSlider = () => {
               nurcing agency
             </h2>
             <p className="font-[400] text-[18px] text-[#2D2929] leading-[35px] ">
-              Blessed Vally Residence provide flexible temporary and permanent
-              staff in healthcare recruitment. From specialist nurse
+              holistic residential home care provide flexible temporary and
+              permanent staff in healthcare recruitment. From specialist nurse
               practitioners, to nurses and carers, our dedicated team work
               closely with our NHS and private clients.
             </p>
           </div>
         </SwiperSlide>
-     
+
         <SwiperSlide className="__slider-wrapper cursor-pointer bg-[#fff] rounded-[10px] overflow-hidden">
           <div className="__serivce-image h-[200px] overflow-hidden">
             <img className="object-cover " src="/images/4.png" alt="" />
@@ -119,8 +118,8 @@ const ServiceSlider = () => {
               mental health
             </h2>
             <p className="font-[400] text-[18px] text-[#2D2929] leading-[35px] ">
-              Blessed Vally Residence provide flexible temporary and permanent
-              staff in healthcare recruitment. From specialist nurse
+              holistic residential home care provide flexible temporary and
+              permanent staff in healthcare recruitment. From specialist nurse
               practitioners, to nurses and carers, our dedicated team work
               closely with our NHS and private clients.
             </p>
@@ -140,8 +139,8 @@ const ServiceSlider = () => {
               recruitment
             </h2>
             <p className="font-[400] text-[18px] text-[#2D2929] leading-[35px] ">
-              Blessed Vally Residence provide flexible temporary and permanent
-              staff in healthcare recruitment. From specialist nurse
+              holistic residential home care provide flexible temporary and
+              permanent staff in healthcare recruitment. From specialist nurse
               practitioners, to nurses and carers, our dedicated team work
               closely with our NHS and private clients.
             </p>

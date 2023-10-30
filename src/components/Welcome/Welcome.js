@@ -6,8 +6,8 @@ const Welcome = () => {
       <h3 className="__noto text-[22px] leading-[22px] font-[700] mb-[20px] text-[#00A8F6]">
         Welcome To
       </h3>
-      <h1 className="__noto text-[35px] font-[800] mb-[20px]">
-        Blessed Vallay Residence
+      <h1 className="__noto capitalize text-[35px] font-[800] mb-[20px]">
+        holistic residential home care
       </h1>
       <p className="__robot text-[20px] font-[400]">
         Lorem Ipsum is simply dummy text of the printing and typesetting

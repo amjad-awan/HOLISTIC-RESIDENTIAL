@@ -40,12 +40,12 @@ const NavBar = () => {
             <Link href="/contact">contact us</Link>
           </li>
         </ul>
-        <div className="__navbar-caller w-[200px]   text-center">
+        <div className="__navbar-caller w-[300px]   text-center">
           <a
             href="tel:305-877-3961"
-            className="__noto  flex justify-center text-[30px] text-[#fff] px-[30px] items-center rounded-[40px] h-[60px] bg-[#056693]"
+            className="__noto  flex justify-center text-[30px] text-[#fff] px-[30px] items-center rounded-[40px] h-[60px] w-[100%] bg-[#056693]"
           >
-            <MdCall /> 305-877-3961
+            <MdCall className="mr-2"/> 305-877-3961
           </a>
         </div>
       </div>
