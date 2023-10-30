@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.__noto{
+  font-family: "Noto Serif", serif;
+
+}
+
+.__robot{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.__header{
+  position: relative;
+  margin-bottom: 100px;
+
+}
+
+.__header::after{
+ position: absolute;
+ content: "";
+ bottom:0px;
+ height: 30px;
+ left:0;
+ right: 0;;
+ width: 100%;
+ background: url("../../public/images/page-header-curv-1-1.svg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index: 999;
+
+
+}
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}

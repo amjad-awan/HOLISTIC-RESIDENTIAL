@@ -1,0 +1,18 @@
+.__first-slide {
+  background: url("../../../../public/images/6.jpg");
+}
+.__sec-slide {
+  background: url("../../../../public/images/main-slider-2.jpg");
+}
+.__third-slide {
+  background: url("../../../../public/images/crisis-care.jpg");
+}
+.__slide {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
