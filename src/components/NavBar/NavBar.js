@@ -27,7 +27,7 @@ const NavBar = () => {
       </div> */}
         <ul className="__navbar-links flex  bg-[#fff] justify-between items-center ">
           <li className="__noto text-[22px] capitalize font-[500]   text-[#2D2929] md:px-[30px] lg:px-[40px]">
-            <Link href="/home">home</Link>
+            <Link href="/">home</Link>
           </li>
 
           <li className="__noto text-[22px] capitalize font-[500]   text-[#2D2929] md:px-[30px] lg:px-[40px]">
@@ -55,7 +55,7 @@ const NavBar = () => {
       <div className={`__navbar-wrapper border-2 border-[#f5f4f4]  absolute h-[100vh] z-10 top-[97px] transition-all duration-500 ${openNavBar?"right-0":"right-[-100%]"}  w-[80%] lg:hidden md:gap-[30px] lg:gap-[50px] bg-[#fff] justify-between items-center `}>
         <ul className="__navbar-links flex flex-col py-[30px] px-[30px] bg-[#fff] justify-between items-start ">
           <li className="__noto text-[22px] capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
-            <Link href="/home">home</Link>
+            <Link href="/">home</Link>
           </li>
           <li className="__noto text-[22px] capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
             <Link href="/about">about us</Link>

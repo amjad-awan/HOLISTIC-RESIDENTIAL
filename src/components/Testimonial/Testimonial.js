@@ -1,4 +1,4 @@
-import React,from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -16,9 +16,8 @@ const Testimonial = () => {
     <>
       <Swiper
         navigation={true}
-        modules={[Pagination]}
+        modules={[Pagination,Navigation]}
         loop={true}
-        modules={[Navigation]}
         pagination={{
           clickable: true,
         }}

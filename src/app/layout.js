@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 
 import Head from "next/head";
 import Footer from "@/components/Footer/Footer";
+
 const NavBar = dynamic(() => import("@/components/NavBar/NavBar"), {
   ssr: false,
 });
@@ -29,11 +30,14 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap"
           rel="stylesheet"
         ></link>
+
+        <link rel="icon" href="/images/logo.png" sizes="any" />
       </Head>
       <body className="overflow-x-hidden">
         <Suspense fallback={<></>}>
           <NavBar />
         </Suspense>
+
         {children}
         <Footer />
       </body>

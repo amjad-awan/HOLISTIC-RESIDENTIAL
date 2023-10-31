@@ -5,6 +5,7 @@ import GetInTouch from "@/components/GetInTouch/GetInTouch";
 import Help from "@/components/Help/Help";
 import Services from "@/components/Services/Services";
 import TestimonialWrapper from "@/components/TestimonialWrapper/TestimonialWrapper";
+import Video from "@/components/Video/Video";
 import HeaderSlider from "@/components/sliders/HeaderSlider/HeaderSlider";
 import React from "react";
 
@@ -32,6 +33,7 @@ const page = () => {
       <AboutUs aboutUsData={aboutUsData} />
       <Services />
       <Career />
+      <Video />
       <TestimonialWrapper />
       <GetInTouch />
       <Help />

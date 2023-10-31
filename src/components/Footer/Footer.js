@@ -68,6 +68,12 @@ const Footer = () => {
           >
             Holisticcare14@gmail.com
           </a>
+          <p
+            href="void(0)"
+            className="__robot mb-[20px] text-[18px] text-[#fff]"
+          >
+            Fax: 1+(561)-225-1854
+          </p>
         </div>
       </div>
 

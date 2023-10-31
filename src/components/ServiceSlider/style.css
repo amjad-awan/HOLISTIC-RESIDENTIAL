@@ -1,26 +1,3 @@
-.__slider-wrapper .__serivce-image img {
-  transition: all 1s linear;
-}
-.__slider-wrapper .__serivce-image {
-  position: relative;
-}
-.__slider-wrapper .__serivce-image::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0);
-  transition: all 1s linear;
-}
-
-.__slider-wrapper:hover .__serivce-image img {
-  transform: scale(1.1);
-}
-.__slider-wrapper:hover .__serivce-image::after {
-  background: rgba(0, 0, 0, 0.3);
-}
 
 .swiper-pagination-bullet {
   height: 11px;
