@@ -1,5 +1,8 @@
+
+"use client";
 import AboutUs from "@/components/AboutUs/AboutUs";
 import Banner from "@/components/Banner/Banner";
+import TestimonialWrapper from "@/components/TestimonialWrapper/TestimonialWrapper";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 // import TestimonialWrapper from "../../components/TestimonialWrapper/TestimonialWrapper";
 import React from "react";
@@ -17,10 +20,10 @@ const aboutUsData = {
 };
 const page = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Banner data={data} />
       <AboutUs aboutUsData={aboutUsData} />
-      {/* <TestimonialWrapper /> */}
+      <TestimonialWrapper />
       <WhyChooseUs/>
     </div>
   );

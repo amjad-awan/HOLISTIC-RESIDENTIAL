@@ -8,7 +8,8 @@ import TestimonialWrapper from "@/components/TestimonialWrapper/TestimonialWrapp
 import Video from "@/components/Video/Video";
 import HeaderSlider from "@/components/sliders/HeaderSlider/HeaderSlider";
 import React from "react";
-
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 const aboutUsData = {
   title1: " about us",
   title2: " We Take Care of Your Problems Carefully",
@@ -25,6 +26,18 @@ const aboutUsData = {
 const page = () => {
   return (
     <div className="overflow-hidden">
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
       {/* <NavBar /> */}
 
       <div className="__header">

@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
 
         <link rel="icon" href="/images/logo.png" sizes="any" />
       </Head>
-      <body className="overflow-x-hidden">
+      <body >
         <Suspense fallback={<></>}>
           <NavBar />
         </Suspense>

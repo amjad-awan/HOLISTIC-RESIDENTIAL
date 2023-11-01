@@ -37,7 +37,7 @@ const NavBar = () => {
             <Link href="/services">services</Link>
           </li>
           <li className="__noto text-[22px] capitalize font-[500]   text-[#2D2929] md:px-[30px] lg:px-[40px]">
-            <Link href="/contact">contact us</Link>
+            <Link href="/contact-us">contact us</Link>
           </li>
         </ul>
         <div className="__navbar-caller w-[300px]   text-center">
@@ -64,7 +64,7 @@ const NavBar = () => {
             <Link href="/services">services</Link>
           </li>
           <li className="__noto text-[22px] capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
-            <Link href="/contact">contact us</Link>
+            <Link href="/contact-us">contact us</Link>
           </li>
         </ul>
         <div className="__navbar-caller px-[30px] w-[100%] mt-[40px]  text-center">
