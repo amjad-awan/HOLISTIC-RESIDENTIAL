@@ -10,3 +10,51 @@
 .swiper-wrapper {
   margin-bottom: 100px;
 }
+.swiper-button-prev{
+  position: absolute;
+
+}
+
+.swiper-button-prev::after{
+  position: absolute;
+  font-size: 28px !important;
+  font-weight: 800 !important;
+ /* content: "<" !important; */
+ color:#a3a6a7;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  /* padding: 20px; */
+  left: 20px;
+
+}
+
+.swiper-button-next{
+  position: absolute;
+  transform: translateY(80px);
+  left: 0px !important;
+
+}
+
+.swiper-button-next::after{
+  position: absolute;
+  font-size: 28px !important;
+  font-weight: 800 !important;
+ /* content: "<" !important; */
+ color:#a3a6a7;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  /* padding: 20px; */
+  left: 23px;
+
+}

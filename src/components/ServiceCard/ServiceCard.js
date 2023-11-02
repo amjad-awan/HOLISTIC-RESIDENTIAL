@@ -4,7 +4,6 @@ import "./style.css";
 
 // "#00a8f663"
 const ServiceCard = ({ data, index }) => {
-  console.log("index ===7", index)
   return (
     <div className="__slider-wrapper cursor-pointer bg-[#fff] rounded-[10px] overflow-hidden">
       <div className="__serivce-image h-[200px] overflow-hidden">
@@ -17,7 +16,7 @@ const ServiceCard = ({ data, index }) => {
           <div
             className={`bg-[${data.bg}] rounded-[10px] flex justify-center items-center w-[55px] h-[55px] text-[#fff]`}
           >
-            {data.icon}{" "}
+            {data.icon}
           </div>
         </div>
         <h2 className="font-[600] capitalize mb-[10px] mt-[50px] text-[25px] text-[#2D2929] ">

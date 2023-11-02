@@ -107,9 +107,9 @@ const GetInTouch = () => {
               ></textarea>
             </div>
             <button
-              disabled={isLoading}
+              disabled={isLoading || !formData.name || !formData.email || formData.message  }
               type="submit"
-              className="bg-[#00A8F6] transition-all duration-500 text-[25px] rounded-[40px] text-[#fff] py-[15px] px-[60px]"
+              className={`bg-[#00A8F6]  ${isLoading || !formData.name || !formData.email || !formData.message ?"cursor-not-allowed":"cursor-pointer"  } transition-all duration-500 text-[25px] rounded-[40px] text-[#fff] py-[15px] px-[60px]`}
             >
               {isLoading ? "Sending..." : "Send"}
             </button>

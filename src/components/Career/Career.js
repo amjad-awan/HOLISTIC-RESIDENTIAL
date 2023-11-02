@@ -16,7 +16,7 @@ const Career = ({ CareerData }) => {
         <h3 className="__noto capitalize text-[30px] leading-[22px] font-[800] mb-[40px] text-[#00A8F6]">
           Careers
         </h3>
-        <h1 className="__noto capitalize text-[#fff] text-[35px] leading-[40px] font-[800] mb-[40px] ">
+        <h1 className="__noto capitalize text-[#fff] text-[35px] leading-[50px] font-[800] mb-[40px] ">
           Careers Benefits of working at Senior Lifestyle
         </h1>
         <p className="__robot text-[20px] font-[400] text-[#fff]">
@@ -27,7 +27,7 @@ const Career = ({ CareerData }) => {
         </p>
 
         <div className="mt-[30px]">
-          <h2 className="text-[22px] font-[600] text-[#ffff]">Our Benefits Include:</h2>
+          <h2 className="text-[22px] font-[700] text-[#ffff]">Our Benefits Include:</h2>
           <div className="flex justify-between mt-[30px]  ">
             <ul className=" list-disc ">
               <li className="mb-[5px] text-[18px] font-[400] text-[#fff]">Medical insurance</li>

@@ -21,7 +21,7 @@ const Testimonial = () => {
         pagination={{
           clickable: true,
         }}
-        className="mySwiper mt-[50px] h-[50vh] "
+        className="mySwiper mt-[60px] h-[50vh] "
       >
         <SwiperSlide className="sm:px-[30px] lg:px-[100px] ">
           <div className=" h-[100%] flex-col px-[50px] flex justify-start items-center ">

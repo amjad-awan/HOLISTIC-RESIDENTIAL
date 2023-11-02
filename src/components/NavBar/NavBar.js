@@ -18,7 +18,7 @@ const NavBar = () => {
         <img
           src="/images/logo2.png"
           alt=""
-          className="w-[186px] object-contain h-[66px]"
+          className="w-[186px] object-contain h-[100px]"
         />
       </div>
       <div className="__navbar-wrapper ml-[17rem] hidden lg:flex md:gap-[30px] lg:gap-[50px] bg-[#fff] justify-between items-center  h-[100%] max-w-[100%]">
