@@ -8,7 +8,6 @@ import { HiUserGroup } from "react-icons/hi";
 import { LuBrush } from "react-icons/lu";
 
 const servicesData = [
-
   {
     icon: <FaHandHoldingMedical className="text-[28px] text-[#dae6eb]" />,
     title: "supported live-in",
@@ -21,7 +20,7 @@ const servicesData = [
     icon: <IoMailOutline className="text-[28px] text-[#dae6eb]" />,
     title: "recruitment",
     img: "/images/1.png",
-    text: "Working for holistic residential home care is not only rewarding, butit is satisfying. We value our staff and provide them with the right tools they need to do their work. Whether its an office job or field job, we are all a family.",
+    text: "Working for Holistic Residential Home Care is not only rewarding, butit is satisfying. We value our staff and provide them with the right tools they need to do their work. Whether its an office job or field job, we are all a family.",
     opacity: "#109ec55b",
     bg: "#109FC5",
   },
@@ -29,7 +28,7 @@ const servicesData = [
     icon: <FaUserNurse className="text-[28px] text-[#dae6eb]" />,
     title: "nurcing agency",
     img: "/images/3.png",
-    text: "  holistic residential home care provide flexible temporary and permanent staff in healthcare recruitment. From specialist nurse practitioners, to nurses and carers, our dedicated team work closely with our NHS and private clients.",
+    text: "holistic residential home care provide flexible temporary and permanent staff in healthcare recruitment. From specialist nurse practitioners, to nurses and carers, our dedicated team work closely with our NHS and private clients",
     opacity: "#04557b4f",
     bg: "#04567B",
   },
@@ -37,7 +36,7 @@ const servicesData = [
     icon: <HiUserGroup className="text-[28px] text-[#dae6eb]" />,
     title: "mental health",
     img: "/images/4.png",
-    text: "  holistic residential home care provide flexible temporary and permanent staff in healthcare recruitment. From specialist nurse practitioners, to nurses and carers, our dedicated team work closely with our NHS and private clients.",
+    text: "Holistic Residential Home Care provide flexible temporary and permanent staff in healthcare recruitment. From specialist nurse practitioners, to nurses , Our dedicated team work closely with our NHS and private clients",
     opacity: "#109ec55b",
     bg: "#109FC5",
   },

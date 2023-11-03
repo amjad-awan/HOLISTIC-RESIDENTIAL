@@ -14,7 +14,7 @@ const Welcome = () => {
         The convenience of accessing quality, professional care in your own home
         can be genuinely life changing – helping you to stay healthy and
         independent. At Holistic Residential Home Care, we have professional
-        well-trained carers who live the culture of care daily.
+        well-trained career who live the culture of care daily.
       </p>
 
       <Link

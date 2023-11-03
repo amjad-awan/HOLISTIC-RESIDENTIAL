@@ -14,7 +14,7 @@ const Career = ({ CareerData }) => {
       </div>
       <div className="bg-[#056693] p-[50px] min-h-[100vh]">
         <h3 className="__noto capitalize text-[30px] leading-[22px] font-[800] mb-[40px] text-[#00A8F6]">
-          Careers
+          Career
         </h3>
         <h1 className="__noto capitalize text-[#fff] text-[35px] leading-[50px] font-[800] mb-[40px] ">
           Careers Benefits of working at Senior Lifestyle
