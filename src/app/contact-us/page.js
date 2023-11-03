@@ -3,8 +3,9 @@ import React from "react";
 import { IoCallSharp } from "react-icons/io5";
 
 const data = {
-  title: "services",
+  title: "Contact Us",
   img: "/images/bg101.jpg",
+  text:"Get in touch today to experience care that truly makes a difference."
 };
 import {GoMail} from "react-icons/go"
 import { BiMap } from "react-icons/bi";

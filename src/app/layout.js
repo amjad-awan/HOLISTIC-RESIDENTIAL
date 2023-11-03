@@ -22,7 +22,6 @@ export default function RootLayout({ children }, data) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/fav.png" type="image/png" sizes="any" />
         <title>Holistic - Residential | Home Care</title>
       </head>
       <Head>
@@ -33,7 +32,6 @@ export default function RootLayout({ children }, data) {
           href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap"
           rel="stylesheet"
         ></link>
-        
       </Head>
       <body>
         <Suspense fallback={<></>}>

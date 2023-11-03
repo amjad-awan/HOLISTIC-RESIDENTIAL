@@ -99,7 +99,7 @@ const GetInTouch = () => {
             </div>
             <div className="w-[100%] h-[180px] mb-6">
               <textarea
-                placeholder="Write your message ..."
+                placeholder="Enter your name"
                 value={formData.message}
                 name="message"
                 onChange={(e) => handleChange(e)}

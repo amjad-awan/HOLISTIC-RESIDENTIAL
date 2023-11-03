@@ -1,12 +1,22 @@
-import React from 'react'
-import "./style.css"
-const Banner = ({data}) => {
-    console.log("data",data)
+import React from "react";
+import "./style.css";
+const Banner = ({ data }) => {
   return (
-    <div style={{background:`url(${data.img})`, backgroundPositionX:"bottom",backgroundRepeat:"no-repeat", backgroundSize:"cover"}} className="__about-wrapper max-w-[1600px] flex justify-center items-center h-[200px] md:h-[400px] mx-auto">
- <h1 className="__noto z-10 text-center capitalize text-[60px] text-[#fff] font-[600]">{data.title}</h1>
-  </div>
-  )
-}
+    <div
+      style={{
+        background: `url(${data.img})`,
+        backgroundPositionX: "bottom",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+      className="__about-wrapper max-w-[1600px] flex-col flex justify-center items-center h-[200px] md:h-[400px] mx-auto"
+    >
+      <h1 className="__noto z-10 text-center capitalize text-[60px] text-[#fff] font-[600]">
+        {data.title}
+      </h1>
+      {data.text && <p className="__robot text-[#fff] mt-[10px] z-10 text-[25px] font-[500]">{data.text}</p>}
+    </div>
+  );
+};
 
-export default Banner
+export default Banner;

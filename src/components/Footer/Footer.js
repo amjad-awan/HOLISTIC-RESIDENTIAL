@@ -38,7 +38,7 @@ const Footer = () => {
           </Link>
 
           <Link
-            href="/about"
+            href="/contact-us"
             className="__robot mb-[20px] text-[18px] text-[#fff]"
           >
             Contact Us
