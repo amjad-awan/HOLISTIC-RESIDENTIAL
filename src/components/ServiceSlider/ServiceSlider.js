@@ -28,7 +28,7 @@ const ServiceSlider = () => {
     },
     {
       icon: <FaHandHoldingMedical className="text-[28px] text-[#dae6eb]" />,
-      title: "supported live-in",
+      title: "Working for Holistic Residential Home Care is not only rewarding, but it is satisfying.",
       img: "/images/2.png",
       text: "If someone you know needs a qualified, friendly and caring personal Career to assist them in the comfort of their home, get in touch with us. We provide live in care services across Florida.",
       opacity: "#04557b4b",

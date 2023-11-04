@@ -36,13 +36,14 @@ const NavBar = () => {
           <li className="__noto text-[22px] capitalize font-[500]   text-[#2D2929] md:px-[30px] lg:px-[40px]">
             <Link href="/">home</Link>
           </li>
+          <li className="__noto text-[22px] capitalize font-[500]   text-[#2D2929] md:px-[30px] lg:px-[40px]">
+            <Link href="/services">services</Link>
+          </li>
 
           <li className="__noto text-[22px] capitalize font-[500]   text-[#2D2929] md:px-[30px] lg:px-[40px]">
             <Link href="/about">about us</Link>
           </li>
-          <li className="__noto text-[22px] capitalize font-[500]   text-[#2D2929] md:px-[30px] lg:px-[40px]">
-            <Link href="/services">services</Link>
-          </li>
+
           <li className="__noto text-[22px] capitalize font-[500]   text-[#2D2929] md:px-[30px] lg:px-[40px]">
             <Link href="/contact-us">contact us</Link>
           </li>
@@ -87,55 +88,55 @@ const NavBar = () => {
                     <div className="flex h-full flex-col overflow-y-scroll overflow-x-hidden bg-white pb-6 shadow-xl">
                       {/* <div className="px-4 sm:px-6 py-6 border-b-[1px] border-[#5c5c5c3b]">
                         <div className="flex items-start justify-between"> */}
-                          <div class="absolute left-0 top-0 -ml-8 flex pr-2 pt-4 sm:-ml-10 sm:pr-4">
-                            <button
-                              onClick={() => setOpenNavBar(false)}
-                              type="button"
-                              class="relative rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
-                            >
-                              <span class="absolute -inset-2.5"></span>
-                              <span class="sr-only">Close panel</span>
-                              <svg
-                                class="h-6 w-6"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke-width="1.5"
-                                stroke="currentColor"
-                                aria-hidden="true"
-                              >
-                                <path
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  d="M6 18L18 6M6 6l12 12"
-                                />
-                              </svg>
-                            </button>
-                          </div>
+                      <div class="absolute left-0 top-0 -ml-8 flex pr-2 pt-4 sm:-ml-10 sm:pr-4">
+                        <button
+                          onClick={() => setOpenNavBar(false)}
+                          type="button"
+                          class="relative rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
+                        >
+                          <span class="absolute -inset-2.5"></span>
+                          <span class="sr-only">Close panel</span>
+                          <svg
+                            class="h-6 w-6"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M6 18L18 6M6 6l12 12"
+                            />
+                          </svg>
+                        </button>
+                      </div>
 
-                          <div class="absolute left-0 top-0 -ml-8 flex pr-2 pt-4 sm:-ml-10 sm:pr-4">
-                            <button
-                              type="button"
-                              class="relative rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
-                            >
-                              <span class="absolute -inset-2.5"></span>
-                              <span class="sr-only">Close panel</span>
-                              <svg
-                                class="h-6 w-6"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke-width="1.5"
-                                stroke="currentColor"
-                                aria-hidden="true"
-                              >
-                                <path
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  d="M6 18L18 6M6 6l12 12"
-                                />
-                              </svg>
-                            </button>
-                          </div>
-                        {/* </div>
+                      <div class="absolute left-0 top-0 -ml-8 flex pr-2 pt-4 sm:-ml-10 sm:pr-4">
+                        <button
+                          type="button"
+                          class="relative rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
+                        >
+                          <span class="absolute -inset-2.5"></span>
+                          <span class="sr-only">Close panel</span>
+                          <svg
+                            class="h-6 w-6"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M6 18L18 6M6 6l12 12"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                      {/* </div>
                       </div> */}
                       <div className="relative mt-6 flex flex-col flex-1 px-4 sm:px-6 overflow-y-auto overflow-x-hidden ">
                         {/* mobile bar */}
@@ -145,28 +146,40 @@ const NavBar = () => {
                             openNavBar ? "right-0" : "right-[-100%]"
                           }  w-[80%] lg:hidden md:gap-[30px] lg:gap-[50px] bg-[#fff] justify-between items-center `}
                         > */}
-                          <ul className="__navbar-links flex flex-col py-[30px] px-[30px] bg-[#fff] justify-between items-start ">
-                            <li className="__noto text-[22px]  capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
-                              <Link href="/" className="w-[100%] block  ">home</Link>
-                            </li>
-                            <li className="__noto text-[22px] capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
-                              <Link href="/about" className="w-[100%] block  ">about us</Link>
-                            </li>
-                            <li className="__noto text-[22px] capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
-                              <Link href="/services" className="w-[100%] block  ">services</Link>
-                            </li>
-                            <li className="__noto text-[22px] capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
-                              <Link href="/contact-us" className="w-[100%] block  ">contact us</Link>
-                            </li>
-                          </ul>
-                          <div className="__navbar-caller px-[30px] w-[100%] mt-[100px]  text-center">
-                            <a
-                              href="tel:0302754363"
-                              className="__noto w-[100%] flex justify-center text-[30px] text-[#fff]  items-center rounded-[40px] h-[60px] bg-[#056693]"
+                        <ul className="__navbar-links flex flex-col py-[30px] px-[30px] bg-[#fff] justify-between items-start ">
+                          <li className="__noto text-[22px]  capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
+                            <Link href="/" className="w-[100%] block  ">
+                              home
+                            </Link>
+                          </li>
+                          <li className="__noto text-[22px] capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
+                            <Link href="/services" className="w-[100%] block  ">
+                              services
+                            </Link>
+                          </li>
+                          <li className="__noto text-[22px] capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
+                            <Link href="/about" className="w-[100%] block  ">
+                              about us
+                            </Link>
+                          </li>
+
+                          <li className="__noto text-[22px] capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
+                            <Link
+                              href="/contact-us"
+                              className="w-[100%] block  "
                             >
-                              <MdCall /> 0302754363
-                            </a>
-                          </div>
+                              contact us
+                            </Link>
+                          </li>
+                        </ul>
+                        <div className="__navbar-caller px-[30px] w-[100%] mt-[100px]  text-center">
+                          <a
+                            href="tel:0302754363"
+                            className="__noto w-[100%] flex justify-center text-[30px] text-[#fff]  items-center rounded-[40px] h-[60px] bg-[#056693]"
+                          >
+                            <MdCall /> 0302754363
+                          </a>
+                        </div>
                         {/* </div> */}
                       </div>
                     </div>

@@ -45,7 +45,7 @@ const servicesData = [
   {
     icon: <FaCarAlt className="text-[28px] text-[#dae6eb]" />,
     title: "Transportation Errands",
-    img: "/images/4.png",
+    img: "/images/transport.png",
     text: "Tailored transportation and errand solutions, delivering seamless convenience for all your needs, ensuring hassle-free and efficient service in need.",
     opacity: "#04557b4f",
     bg: "#04567B",
@@ -54,7 +54,7 @@ const servicesData = [
   {
     icon: <LuBrush className="text-[28px] text-[#dae6eb]" />,
     title: "Domestic Duties",
-    img: "/images/3.png",
+    img: "/images/domestic.png",
     text: "Our reliable light housekeeping and domestic duty services help maintain your home in tip-top shape, ensuring a clean and comfortable living environment.    ",
     opacity: "#109ec55b",
     bg: "#109FC5",
