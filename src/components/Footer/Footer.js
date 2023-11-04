@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="max-w-[1600px] bg-[#04547C] px-[30px] pt-[100px] mx-auto ">
+    <div className="max-w-[1600px] bg-[#04547C] px-[20px] lg:px-[30px] pt-[100px] mx-auto ">
       <div className="grid grid-cols-1 pb-[80px]  md:grid-cols-2 lg:grid-cols-4 gap-[50px]">
       <div className="">
         <h3 className="__noto capitalize text-[30px] text-[#fff] leading-[22px] font-[800] mb-[40px] ">

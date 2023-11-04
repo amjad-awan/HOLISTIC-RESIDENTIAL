@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {  toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 const GetInTouch = () => {
   const [formData, setFormData] = useState({
@@ -8,7 +8,6 @@ const GetInTouch = () => {
     message: "",
   });
   const [isLoading, setidLoading] = useState(false);
-
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -38,8 +37,6 @@ const GetInTouch = () => {
         progress: undefined,
         theme: "light",
       });
-
-   
     } catch (error) {
       console.error("An error occurred:", error);
       setidLoading(false);
@@ -58,18 +55,17 @@ const GetInTouch = () => {
 
   return (
     <>
-     
       {/* Same as */}
-     
+
       <div className="max-w-[1600px] bg-[#04547C] py-[100px]  mx-auto grid sm:grid-cols-1 md:grid-cols-2">
-        <div className="h-[500px]">
+        <div className="h-[300px] mb-[30px] lg:md-0 lg:h-[500px] border-2 border-red-500">
           <img
             src="/images/get-touch.png"
             alt=""
             className="w-[100%] h-[100%] object-contain"
           />
         </div>
-        <div className="p-[50px] min-h-[100vh]">
+        <div className="p-[20px] lg:p-[50px] min-h-[100vh] ">
           <h3 className="__noto capitalize text-[30px] text-[#fff] leading-[22px] font-[800] mb-[40px] ">
             Get In Touch!
           </h3>
@@ -107,9 +103,21 @@ const GetInTouch = () => {
               ></textarea>
             </div>
             <button
-              disabled={isLoading || !formData.name || !formData.email || formData.message  }
+              disabled={
+                isLoading ||
+                !formData.name ||
+                !formData.email ||
+                formData.message
+              }
               type="submit"
-              className={`bg-[#00A8F6]  ${isLoading || !formData.name || !formData.email || !formData.message ?"cursor-not-allowed":"cursor-pointer"  } transition-all duration-500 text-[25px] rounded-[40px] text-[#fff] py-[15px] px-[60px]`}
+              className={`bg-[#00A8F6]  ${
+                isLoading ||
+                !formData.name ||
+                !formData.email ||
+                !formData.message
+                  ? "cursor-not-allowed"
+                  : "cursor-pointer"
+              } transition-all duration-500 text-[25px] rounded-[40px] text-[#fff] py-[15px] px-[60px]`}
             >
               {isLoading ? "Sending..." : "Send"}
             </button>

@@ -13,3 +13,9 @@
   position: absolute;
 }
 
+@media only screen and (max-width:768px)
+{
+  .swiper-wrapper {
+    margin-bottom: 30px;
+  }
+}

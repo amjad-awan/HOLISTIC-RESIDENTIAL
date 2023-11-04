@@ -115,6 +115,7 @@ const NavBar = () => {
 
                       <div class="absolute left-0 top-0 -ml-8 flex pr-2 pt-4 sm:-ml-10 sm:pr-4">
                         <button
+                          onClick={() => setOpenNavBar(false)}
                           type="button"
                           class="relative rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
                         >
@@ -148,17 +149,17 @@ const NavBar = () => {
                         > */}
                         <ul className="__navbar-links flex flex-col py-[30px] px-[30px] bg-[#fff] justify-between items-start ">
                           <li className="__noto text-[22px]  capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
-                            <Link href="/" className="w-[100%] block  ">
+                            <Link href="/" className="w-[100%] block  "  onClick={() => setOpenNavBar(false)}>
                               home
                             </Link>
                           </li>
                           <li className="__noto text-[22px] capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
-                            <Link href="/services" className="w-[100%] block  ">
+                            <Link href="/services" className="w-[100%] block  "  onClick={() => setOpenNavBar(false)}>
                               services
                             </Link>
                           </li>
                           <li className="__noto text-[22px] capitalize font-[500] border-b-2 border-[#f5f4f4] w-[100%] py-[15px]  text-[#2D2929] md:px-[30px] lg:px-[40px]">
-                            <Link href="/about" className="w-[100%] block  ">
+                            <Link href="/about" className="w-[100%] block  "  onClick={() => setOpenNavBar(false)}>
                               about us
                             </Link>
                           </li>
@@ -167,6 +168,7 @@ const NavBar = () => {
                             <Link
                               href="/contact-us"
                               className="w-[100%] block  "
+                              onClick={() => setOpenNavBar(false)}
                             >
                               contact us
                             </Link>
