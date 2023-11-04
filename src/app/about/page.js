@@ -20,7 +20,7 @@ const aboutUsData = {
 };
 const page = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="">
       <Banner data={data} />
       <AboutUs aboutUsData={aboutUsData} />
       <TestimonialWrapper />

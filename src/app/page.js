@@ -25,7 +25,7 @@ const aboutUsData = {
 };
 const page = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-x-hidden">
       <ToastContainer
         position="top-right"
         autoClose={5000}
@@ -40,7 +40,7 @@ const page = () => {
       />
       {/* <NavBar /> */}
 
-      <div className="__header">
+      <div className="__header overflow-x-hidden">
         <HeaderSlider />
       </div>
       <AboutUs aboutUsData={aboutUsData} />

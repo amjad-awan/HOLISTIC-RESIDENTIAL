@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 
-
 // "#00a8f663"
 const ServiceCard = ({ data, index }) => {
   return (
@@ -22,7 +21,7 @@ const ServiceCard = ({ data, index }) => {
         <h2 className="font-[600] capitalize mb-[10px] mt-[50px] text-[25px] text-[#2D2929] ">
           {data.title}
         </h2>
-        <p className="font-[400] text-[18px] text-[#2D2929] leading-[35px] ">
+        <p className="__robot font-[400] text-[18px] text-[#2D2929] leading-[35px] ">
           {data.text}
         </p>
       </div>

@@ -3,7 +3,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="max-w-[1600px] bg-[#04547C] px-[30px] pt-[100px] pb-[40px]  mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[50px]">
+    <div className="max-w-[1600px] bg-[#04547C] px-[30px] pt-[100px] mx-auto ">
+      <div className="grid grid-cols-1 pb-[80px]  md:grid-cols-2 lg:grid-cols-4 gap-[50px]">
       <div className="">
         <h3 className="__noto capitalize text-[30px] text-[#fff] leading-[22px] font-[800] mb-[40px] ">
           About Us
@@ -88,8 +89,10 @@ const Footer = () => {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div className="w-[100%] col-span-4 h-[1px] bg-[#c5c5c5]"></div>
-      <p className="text-center col-span-4 text-[#fff] ">
+      </div>
+     
+      <div className="w-[100%] mt-[20px] h-[1px] bg-[#c5c5c5]"></div>
+      <p className="text-center py-4  text-[#fff] ">
         © Copyright 2023 holistic residential home care | Made By DOVILAS
         ENTERPRISES, LLC
       </p>

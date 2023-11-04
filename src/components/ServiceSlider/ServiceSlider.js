@@ -30,15 +30,15 @@ const ServiceSlider = () => {
       icon: <FaHandHoldingMedical className="text-[28px] text-[#dae6eb]" />,
       title: "supported live-in",
       img: "/images/2.png",
-      text: "If someone you know needs a qualified, friendly and caring personal carer to assist them in the comfort of their home, get in touch with us. We provide live in care services across Oxfordshire.",
+      text: "If someone you know needs a qualified, friendly and caring personal Career to assist them in the comfort of their home, get in touch with us. We provide live in care services across Florida.",
       opacity: "#04557b4b",
       bg: "#04567B",
     },
     {
       icon: <FaUserNurse className="text-[28px] text-[#dae6eb]" />,
-      title: "nurcing agency",
+      title: "nursing agency",
       img: "/images/3.png",
-      text: "holistic residential home care provide flexible temporary and permanent staff in healthcare recruitment. From specialist nurse practitioners, to nurses and carers, our dedicated team work closely",
+      text: "holistic residential home care provide flexible temporary and permanent staff in healthcare recruitment. From specialist nurse practitioners, to nurses and Careers, our dedicated team work closely",
       opacity: "#04557b4f",
       bg: "#04567B",
     },
@@ -46,7 +46,7 @@ const ServiceSlider = () => {
       icon: <HiUserGroup className="text-[28px] text-[#dae6eb]" />,
       title: "mental health",
       img: "/images/4.png",
-      text: "  holistic residential home care provide flexible temporary and permanent staff in healthcare recruitment. From specialist nurse practitioners, to nurses and carers, our dedicated team work closely with our NHS and private clients.",
+      text: "  holistic residential home care provide flexible temporary and permanent staff in healthcare recruitment. From specialist nurse practitioners, to nurses and Careers, our dedicated team work closely with our NHS and private clients.",
       opacity: "#109ec55b",
       bg: "#109FC5",
     },
@@ -98,7 +98,7 @@ const ServiceSlider = () => {
             </h2>
             <p className="font-[400] text-[18px] text-[#2D2929] leading-[35px] ">
               If someone you know needs a qualified, friendly and caring
-              personal carer to assist them in the comfort of their home, get in
+              personal Career to assist them in the comfort of their home, get in
               touch with us. We provide live in care services across
               Oxfordshire.
             </p>
@@ -115,12 +115,12 @@ const ServiceSlider = () => {
               </div>
             </div>
             <h2 className="font-[600] capitalize mb-[10px] mt-[50px] text-[25px] text-[#2D2929] ">
-              nurcing agency
+              nursing agency
             </h2>
             <p className="font-[400] text-[18px] text-[#2D2929] leading-[35px] ">
               holistic residential home care provide flexible temporary and
               permanent staff in healthcare recruitment. From specialist nurse
-              practitioners, to nurses and carers, our dedicated team work
+              practitioners, to nurses and Careers, our dedicated team work
               closely with our NHS and private clients.
             </p>
           </div>
@@ -142,7 +142,7 @@ const ServiceSlider = () => {
             <p className="font-[400] text-[18px] text-[#2D2929] leading-[35px] ">
               holistic residential home care provide flexible temporary and
               permanent staff in healthcare recruitment. From specialist nurse
-              practitioners, to nurses and carers, our dedicated team work
+              practitioners, to nurses and Careers, our dedicated team work
               closely with our NHS and private clients.
             </p>
           </div>

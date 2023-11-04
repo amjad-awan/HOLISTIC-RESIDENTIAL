@@ -6,58 +6,56 @@
 
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
-
-
-  
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700;800&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-  * {
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800;900&family=Rubik:wght@400;500;600;700;800&display=swap');
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.__noto{
+.__noto {
   /* font-family: "Noto Serif", Sans-serif; */
 
   /* font-family: 'Raleway', sans-serif; */
-  font-family: 'Montserrat', sans-serif;
-
-}
-
-.__robot{
-  font-family: 'Roboto Condensed', sans-serif;
-    /* font-family: 'Montserrat', sans-serif; */
-
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "Nunito", sans-serif;
 }
 
 
+.__rubik {
+  /* font-family: "Noto Serif", Sans-serif; */
 
-.__header{
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Rubik', sans-serif;
+
+}
+
+.__robot {
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  font-family: 'Karla', sans-serif;
+
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+.__header {
   position: relative;
   margin-bottom: 100px;
-
 }
 
-.__header::after{
- position: absolute;
- content: "";
- bottom:0px;
- height: 30px;
- left:0;
- right: 0;;
- width: 100%;
- background: url("../../public/images/page-header-curv-1-1.svg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- z-index: 999;
-
-
+.__header::after {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  height: 30px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: url("../../public/images/page-header-curv-1-1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 999;
 }
 :root {
   --foreground-rgb: 0, 0, 0;
