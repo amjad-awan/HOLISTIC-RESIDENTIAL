@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="max-w-[1600px] bg-[#04547C] px-[20px] pt-[100px] pb-[40px]  mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[50px]">
+    <div className="max-w-[1600px] bg-[#04547C] px-[30px] pt-[100px] pb-[40px]  mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[50px]">
       <div className="">
         <h3 className="__noto capitalize text-[30px] text-[#fff] leading-[22px] font-[800] mb-[40px] ">
           About Us
@@ -80,9 +80,10 @@ const Footer = () => {
       <div className="">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.9376790604965!2d-80.32012082456626!3d26.746364776746805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d93180939a83d1%3A0xd0afb7501ea944a0!2s17281%2045th%20Ct%20N%2C%20Loxahatchee%2C%20FL%2033470%2C%20USA!5e0!3m2!1sen!2s!4v1698693112444!5m2!1sen!2s"
-          width="300"
+          width="100%"
           height="300"
           allowfullscreen=""
+          
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>

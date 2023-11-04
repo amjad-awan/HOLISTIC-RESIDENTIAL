@@ -18,7 +18,7 @@ const HeaderSlider = () => {
         navigation={true}
         loop={true}
         modules={[Navigation]}
-        className="mySwiper h-[100vh]"
+        className="mySwiper h-[120vh]"
       >
         <SwiperSlide className="__slide __first-slide sm:px-[30px] lg:px-[100px] flex justify-end items-center">
           <Welcome />
