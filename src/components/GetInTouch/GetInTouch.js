@@ -58,7 +58,7 @@ const GetInTouch = () => {
       {/* Same as */}
 
       <div className="max-w-[1600px] bg-[#04547C] py-[100px]  mx-auto grid sm:grid-cols-1 md:grid-cols-2">
-        <div className="h-[300px] mb-[30px] lg:md-0 lg:h-[500px] border-2 border-red-500">
+        <div className="h-[300px] mb-[30px] lg:md-0 lg:h-[500px]">
           <img
             src="/images/get-touch.png"
             alt=""
