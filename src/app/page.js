@@ -44,7 +44,7 @@ const aboutUsData = {
   title1: " about us",
   title2: " We Take Care of Your Problems Carefully",
   para: `We understand that unexpected situations can arise axt any time, and
-  thats why we at holistic residential home care are committed to providing
+  thats why we at Holistic Residential Home Care are committed to providing
   our clients with round-the-clock real-time problem resolution. Our
   team of trained professionals is available 24/7 to respond with a
   sense of urgency to any emergency that may occur in the home or
