@@ -18,20 +18,20 @@ const HeaderSlider = () => {
         navigation={true}
         loop={true}
         modules={[Navigation]}
-        className="mySwiper  h-[300px] lg:h-[110vh]"
+        className="mySwiper flex justify-end items-center overflow-hidden h-[300px] lg:h-[110vh]"
       >
-        <SwiperSlide className="__slide  __first-slide sm:px-[30px] lg:px-[100px] flex justify-end items-center">
-          <div className="hidden lg:block">
+        <SwiperSlide className="__slide  __first-slide  flex justify-end items-center">
+          <div className="hidden lg:block mt-[70px]  pr-[50px]">
             <Welcome />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="__slide __sec-slide sm:px-[30px] lg:px-[100px] flex justify-end items-center">
-          <div className="hidden lg:block">
+        <SwiperSlide className="__slide __sec-slide  flex justify-end items-center">
+          <div className="hidden lg:block mt-[70px]  pr-[50px]">
             <Welcome />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="__slide __third-slide sm:px-[30px] lg:px-[100px] flex justify-end items-center">
-          <div className="hidden lg:block">
+        <SwiperSlide className="__slide __third-slide  flex justify-end items-center">
+          <div className="hidden lg:block mt-[70px] pr-[50px]">
             <Welcome />
           </div>
         </SwiperSlide>{" "}
@@ -40,4 +40,4 @@ const HeaderSlider = () => {
   );
 };
 
-export default memo(HeaderSlider);
+export default HeaderSlider;

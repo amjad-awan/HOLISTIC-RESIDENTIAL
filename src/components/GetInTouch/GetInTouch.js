@@ -65,7 +65,7 @@ const GetInTouch = () => {
             className="w-[100%] h-[100%] object-contain"
           />
         </div>
-        <div className="px-[20px] lg:px-[50px] pt-[50px] sm:h-[800px] lg:h-[800px] ">
+        <div className="px-[20px] lg:px-[50px] pt-[50px] sm:h-[800px] lg:h-[800px]">
           <h3 className="__noto capitalize text-[30px] text-[#fff] leading-[22px] font-[800] mb-[40px] ">
             Get In Touch!
           </h3>
@@ -125,7 +125,7 @@ const GetInTouch = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
 export default memo(GetInTouch);

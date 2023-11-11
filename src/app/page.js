@@ -74,6 +74,9 @@ const page = () => {
       <Suspense fallback={<></>}>
         <div className="__header mb-[70px] overflow-x-hidden">
           <HeaderSlider />
+          <div className="curve-wrapper">
+
+          </div>
         </div>
       </Suspense>
       <Suspense fallback={<></>}>
