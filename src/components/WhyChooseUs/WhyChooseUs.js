@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { BsUmbrella, BsSend } from "react-icons/bs";
 import { IoCalendarOutline } from "react-icons/io5";
 const WhyChooseUs = () => {
@@ -53,4 +53,4 @@ const WhyChooseUs = () => {
   );
 };
 
-export default WhyChooseUs;
+export default memo(WhyChooseUs);

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { memo, useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoMailOutline } from "react-icons/io5";
@@ -152,4 +152,4 @@ const ServiceSlider = () => {
   );
 };
 
-export default ServiceSlider;
+export default memo(ServiceSlider);

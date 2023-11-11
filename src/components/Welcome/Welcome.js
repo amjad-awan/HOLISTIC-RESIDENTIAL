@@ -1,15 +1,15 @@
 import Link from "next/link";
-import React from "react";
+import React, { memo } from "react";
 
 const Welcome = () => {
   return (
     <div className="px-[50px] ml-auto rounded-md py-[40px] bg-[#fff] sm:w-[80%] md:w-[600px]">
   
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between mb-[20px] items-center">
       <h3 className="__noto text-[27px] leading-[22px] font-[700] mb-[0px] text-[#00A8F6]">
         Welcome To
       </h3>
-        <img src="/images/logo2.ico" className="object-cover" alt=""/>
+        <img src="/images/logo2.ico" className="object-cover h-[100px]" alt=""/>
       </div>
       <h1 className="__noto capitalize text-[35px] font-[800] mb-[20px]">
         holistic residential home care
@@ -31,4 +31,4 @@ const Welcome = () => {
   );
 };
 
-export default Welcome;
+export default memo(Welcome);

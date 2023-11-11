@@ -1,5 +1,5 @@
 "use client";
-import React, { Fragment, useState } from "react";
+import React, { Fragment, memo, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import "./style.css";
 import Link from "next/link";
@@ -222,4 +222,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default memo(NavBar);

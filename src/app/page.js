@@ -1,15 +1,44 @@
 "use client";
-import AboutUs from "@/components/AboutUs/AboutUs";
-import Career from "@/components/Career/Career";
-import GetInTouch from "@/components/GetInTouch/GetInTouch";
-import Help from "@/components/Help/Help";
-import Services from "@/components/Services/Services";
-import TestimonialWrapper from "@/components/TestimonialWrapper/TestimonialWrapper";
-import Video from "@/components/Video/Video";
-import HeaderSlider from "@/components/sliders/HeaderSlider/HeaderSlider";
-import React from "react";
+
+import React, { Suspense } from "react";
+
+import dynamic from "next/dynamic";
+
+const AboutUs = dynamic(() => import("@/components/AboutUs/AboutUs"), {
+  ssr: false,
+});
+const Career = dynamic(() => import("@/components/Career/Career"), {
+  ssr: false,
+});
+
+const Help = dynamic(() => import("@/components/Help/Help"), {
+  ssr: false,
+});
+const GetInTouch = dynamic(() => import("@/components/GetInTouch/GetInTouch"), {
+  ssr: false,
+});
+
+const Services = dynamic(() => import("@/components/Services/Services"), {
+  ssr: false,
+});
+const TestimonialWrapper = dynamic(
+  () => import("@/components/TestimonialWrapper/TestimonialWrapper"),
+  {
+    ssr: false,
+  }
+);
+
+const Video = dynamic(() => import("@/components/Video/Video"), {
+  ssr: false,
+});
+const HeaderSlider = dynamic(
+  () => import("@/components/sliders/HeaderSlider/HeaderSlider"),
+  {
+    ssr: false,
+  }
+);
 import { ToastContainer } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 const aboutUsData = {
   title1: " about us",
   title2: " We Take Care of Your Problems Carefully",
@@ -23,6 +52,7 @@ const aboutUsData = {
   emergency situations with ease and peace of mind.`,
   link: "/about-us",
 };
+
 const page = () => {
   return (
     <div className="overflow-x-hidden">
@@ -40,16 +70,37 @@ const page = () => {
       />
       {/* <NavBar /> */}
 
-      <div className="__header overflow-x-hidden">
-        <HeaderSlider />
-      </div>
-      <AboutUs aboutUsData={aboutUsData} />
-      <Services />
-      <Career />
-      <Video />
-      <TestimonialWrapper />
-      <GetInTouch />
-      <Help />
+      <Suspense fallback={<></>}>
+        <div className="__header overflow-x-hidden">
+          <HeaderSlider />
+        </div>
+      </Suspense>
+
+      <Suspense fallback={<></>}>
+        <AboutUs aboutUsData={aboutUsData} />
+      </Suspense>
+      <Suspense fallback={<></>}>
+        <Services />
+      </Suspense>
+      <Suspense fallback={<></>}>
+        <Career />
+      </Suspense>
+
+      <Suspense fallback={<></>}>
+        <Video />
+      </Suspense>
+
+      <Suspense fallback={<></>}>
+        <TestimonialWrapper />
+      </Suspense>
+
+      <Suspense fallback={<></>}>
+        <GetInTouch />
+      </Suspense>
+
+      <Suspense fallback={<></>}>
+        <Help />
+      </Suspense>
     </div>
   );
 };

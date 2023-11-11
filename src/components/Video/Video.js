@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 const Video = () => {
   return (
@@ -14,4 +14,4 @@ const Video = () => {
   );
 };
 
-export default Video;
+export default memo(Video);

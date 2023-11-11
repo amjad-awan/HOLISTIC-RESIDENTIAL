@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -21,7 +21,7 @@ const Testimonial = () => {
         pagination={{
           clickable: true,
         }}
-        className="mySwiper mt-[60px] h-[50vh] "
+        className="mySwiper mx-auto mt-[60px] h-[50vh] "
       >
         <SwiperSlide className="sm:px-[30px] lg:px-[100px] ">
           <div className=" h-[100%] flex-col px-[50px] flex justify-start items-center ">
@@ -106,4 +106,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default memo(Testimonial);

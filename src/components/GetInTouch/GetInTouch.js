@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import { toast } from "react-toastify";
 
 const GetInTouch = () => {
@@ -58,14 +58,14 @@ const GetInTouch = () => {
       {/* Same as */}
 
       <div className="max-w-[1600px] bg-[#04547C] py-[100px]  mx-auto grid sm:grid-cols-1 md:grid-cols-2">
-        <div className="h-[300px] mb-[30px] lg:md-0 lg:h-[500px]">
+        <div className="h-[300px] mb-[30px] lg:md-0 lg:h-[800px] ">
           <img
             src="/images/get-touch.png"
             alt=""
             className="w-[100%] h-[100%] object-contain"
           />
         </div>
-        <div className="p-[20px] lg:p-[50px] min-h-[100vh] ">
+        <div className="p-[20px] lg:p-[50px] min-h-[100vh] lg:h-[800px] ">
           <h3 className="__noto capitalize text-[30px] text-[#fff] leading-[22px] font-[800] mb-[40px] ">
             Get In Touch!
           </h3>
@@ -107,7 +107,7 @@ const GetInTouch = () => {
                 isLoading ||
                 !formData.name ||
                 !formData.email ||
-                formData.message
+                !formData.message
               }
               type="submit"
               className={`bg-[#00A8F6]  ${
@@ -128,4 +128,4 @@ const GetInTouch = () => {
   );
 };
 
-export default GetInTouch;
+export default memo(GetInTouch);

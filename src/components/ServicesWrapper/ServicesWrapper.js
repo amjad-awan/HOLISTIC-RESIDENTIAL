@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import ServiceCard from "../ServiceCard/ServiceCard";
 
 import { IoMailOutline } from "react-icons/io5";
@@ -82,4 +82,4 @@ const ServicesWrapper = () => {
   );
 };
 
-export default ServicesWrapper;
+export default memo(ServicesWrapper);

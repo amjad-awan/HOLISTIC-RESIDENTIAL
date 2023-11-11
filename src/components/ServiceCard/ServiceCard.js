@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import "./style.css";
 
 // "#00a8f663"
@@ -29,4 +29,4 @@ const ServiceCard = ({ data, index }) => {
   );
 };
 
-export default ServiceCard;
+export default memo(ServiceCard);

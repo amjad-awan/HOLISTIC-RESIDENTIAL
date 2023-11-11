@@ -1,7 +1,8 @@
-import React from "react";
+import React, { memo } from "react";
 import { MdCall } from "react-icons/md";
 
 const Career = ({ CareerData }) => {
+
   //   const { para, title1, title2, link } = aboutUsData;
   return (
     <div className="max-w-[1600px]  mx-auto grid sm:grid-cols-1 md:grid-cols-2">
@@ -12,6 +13,7 @@ const Career = ({ CareerData }) => {
           className="w-[100%] h-[100%] object-cover"
         />
       </div>
+    
       <div className="bg-[#056693] pt-[50px] p-[20px] lg:p-[50px] min-h-[100vh]">
         <h3 className="__noto capitalize text-[30px] leading-[22px] font-[800] mb-[40px] text-[#00A8F6]">
           Career
@@ -73,4 +75,4 @@ const Career = ({ CareerData }) => {
   );
 };
 
-export default Career;
+export default memo(Career);

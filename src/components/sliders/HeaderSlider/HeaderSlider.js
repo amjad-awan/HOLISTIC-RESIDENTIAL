@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { memo } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,13 +12,10 @@ import { Navigation } from "swiper/modules";
 import Welcome from "@/components/Welcome/Welcome";
 
 const HeaderSlider = () => {
-
-
   return (
     <>
       <Swiper
         navigation={true}
-        
         loop={true}
         modules={[Navigation]}
         className="mySwiper h-[120vh]"
@@ -32,10 +29,9 @@ const HeaderSlider = () => {
         <SwiperSlide className="__slide __third-slide sm:px-[30px] lg:px-[100px] flex justify-end items-center">
           <Welcome />
         </SwiperSlide>{" "}
-      
       </Swiper>
     </>
   );
 };
 
-export default HeaderSlider;
+export default memo(HeaderSlider);

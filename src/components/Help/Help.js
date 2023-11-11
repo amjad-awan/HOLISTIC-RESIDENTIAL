@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 import { IoIosCall } from "react-icons/io";
 const Help = () => {
@@ -27,4 +27,4 @@ const Help = () => {
   );
 };
 
-export default Help;
+export default memo(Help);

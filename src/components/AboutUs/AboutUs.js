@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { MdCall } from "react-icons/md";
 
 const AboutUs = ({ aboutUsData }) => {
@@ -42,4 +42,4 @@ const AboutUs = ({ aboutUsData }) => {
   );
 };
 
-export default AboutUs;
+export default memo(AboutUs);
