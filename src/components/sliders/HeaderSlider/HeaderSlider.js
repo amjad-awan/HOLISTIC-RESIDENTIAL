@@ -18,7 +18,7 @@ const HeaderSlider = () => {
         navigation={true}
         loop={true}
         modules={[Navigation]}
-        className="mySwiper flex justify-end items-center overflow-hidden h-[300px] lg:h-[110vh]"
+        className="mySwiper flex justify-end items-center overflow-hidden h-[300px] lg:h-[100vh]"
       >
         <SwiperSlide className="__slide  __first-slide  flex justify-end items-center">
           <div className="hidden lg:block mt-[70px]  pr-[50px]">

@@ -92,9 +92,8 @@ const Footer = () => {
       </div>
      
       <div className="w-[100%] mt-[20px] h-[1px] bg-[#c5c5c5]"></div>
-      <p className="text-center py-4  text-[#fff] ">
-        © Copyright 2023 holistic residential home care | Made By DOVILAS
-        ENTERPRISES, LLC
+      <p className="text-center py-4 uppercase  text-[#fff] ">
+        © Copyright 2023 holistic residential home care
       </p>
     </div>
   );
