@@ -7,7 +7,7 @@ const AboutUs = ({ aboutUsData }) => {
 
      
 
-      <div className="container px-[20px] py-[100px] mx-auto grid gap-[50px] sm:grid-cols-1 md:grid-cols-2">
+      <div className="container px-[20px] py-[70px] lg:py-[100px] mx-auto grid gap-[50px] sm:grid-cols-1 lg:grid-cols-2">
         
         <div>
           <img

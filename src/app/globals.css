@@ -40,14 +40,13 @@
 
 .__header {
   position: relative;
-  margin-bottom: 100px;
 }
 
 .__header::after {
   position: absolute;
   content: "";
-  bottom: 0px;
-  height: 30px;
+  bottom: -3px;
+  height: 40px;
   left: 0;
   right: 0;
   width: 100%;

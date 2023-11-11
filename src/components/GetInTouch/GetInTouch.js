@@ -57,7 +57,7 @@ const GetInTouch = () => {
     <>
       {/* Same as */}
 
-      <div className="max-w-[1600px] bg-[#04547C] py-[100px]  mx-auto grid sm:grid-cols-1 md:grid-cols-2">
+      <div className="max-w-[1600px] bg-[#04547C] py-[80px]  mx-auto grid sm:grid-cols-1 md:grid-cols-2">
         <div className="h-[300px] mb-[30px] lg:md-0 lg:h-[800px] ">
           <img
             src="/images/get-touch.png"
@@ -65,7 +65,7 @@ const GetInTouch = () => {
             className="w-[100%] h-[100%] object-contain"
           />
         </div>
-        <div className="p-[20px] lg:p-[50px] min-h-[100vh] lg:h-[800px] ">
+        <div className="px-[20px] lg:px-[50px] pt-[50px] sm:h-[800px] lg:h-[800px] ">
           <h3 className="__noto capitalize text-[30px] text-[#fff] leading-[22px] font-[800] mb-[40px] ">
             Get In Touch!
           </h3>

@@ -39,6 +39,7 @@ const HeaderSlider = dynamic(
 );
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Welcome from "@/components/Welcome/Welcome";
 const aboutUsData = {
   title1: " about us",
   title2: " We Take Care of Your Problems Carefully",
@@ -71,11 +72,15 @@ const page = () => {
       {/* <NavBar /> */}
 
       <Suspense fallback={<></>}>
-        <div className="__header overflow-x-hidden">
+        <div className="__header mb-[70px] overflow-x-hidden">
           <HeaderSlider />
         </div>
       </Suspense>
-
+      <Suspense fallback={<></>}>
+        <div className=" lg:hidden">
+          <Welcome />
+        </div>
+      </Suspense>
       <Suspense fallback={<></>}>
         <AboutUs aboutUsData={aboutUsData} />
       </Suspense>

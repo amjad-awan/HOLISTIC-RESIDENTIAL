@@ -3,7 +3,7 @@ import React, { memo } from "react";
 
 const Welcome = () => {
   return (
-    <div className="px-[50px] ml-auto rounded-md py-[40px] bg-[#fff] sm:w-[80%] md:w-[600px]">
+    <div className="px-[20px] lg:px-[50px]  lg:ml-auto rounded-md py-[40px] bg-[#fff] sm:w-[100%] lg:w-[600px]">
   
       <div className="flex justify-between mb-[20px] items-center">
       <h3 className="__noto text-[27px] leading-[22px] font-[700] mb-[0px] text-[#00A8F6]">

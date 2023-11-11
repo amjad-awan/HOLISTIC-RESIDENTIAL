@@ -21,7 +21,7 @@ const Testimonial = () => {
         pagination={{
           clickable: true,
         }}
-        className="mySwiper mx-auto mt-[60px] h-[50vh] "
+        className="__testimonial-slider mySwiper mx-auto mt-[60px]  "
       >
         <SwiperSlide className="sm:px-[30px] lg:px-[100px] ">
           <div className=" h-[100%] flex-col px-[50px] flex justify-start items-center ">
@@ -37,7 +37,7 @@ const Testimonial = () => {
               taking such great care of my Dad and Aunt!
             </p>
             <p className="text-[#00A8F6] capitalize mt-[50px] text-[22px] font-[500]">
-              amjad
+              David
             </p>
           </div>
         </SwiperSlide>
@@ -52,11 +52,11 @@ const Testimonial = () => {
               <BiSolidStar className="text-[22px]" />
             </div>
             <p className="__robot text-center text-[20px]">
-              Blessed Valley is very timely and thorough. You will never feel
+            Holistic Residential Home Care is very timely and thorough. You will never feel
               rushed. You will leave feeling better.
             </p>
             <p className="text-[#00A8F6] capitalize mt-[50px] text-[22px] font-[500]">
-              amjad
+              Stephen
             </p>
           </div>
         </SwiperSlide>
@@ -70,13 +70,10 @@ const Testimonial = () => {
               <BiSolidStar className="text-[22px]" />
             </div>
             <p className="__robot text-center text-[20px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veniam
-              omnis temporibus voluptas consequuntur deleniti aspernatur, sequi
-              expedita magni quaerat exercitationem facilis mollitia, iusto
-              soluta, natus voluptate? Mollitia, atque suscipit.
+            Holistic Residential Home Care is exceptional
             </p>
             <p className="text-[#00A8F6] capitalize mt-[50px] text-[22px] font-[500]">
-              amjad
+              Miceal
             </p>
           </div>
         </SwiperSlide>
@@ -90,14 +87,11 @@ const Testimonial = () => {
               <BiSolidStar className="text-[22px]" />
             </div>
             <p className="__robot text-center text-[20px]">
-              "Blessed Valley is an excellent psychiatric nurse practitioner.
-              She is extremely patient and knowledgeable. I am a very
-              challenging patient and she has always been there for me 24/7. I
-              highly recommend her practice for even the most difficult of
-              psychiatric needs."
+              Holistic Residential Home Care is an excellent psychiatric nurse practitioner.
+              She is extremely patient and knowledgeable.
             </p>
             <p className="text-[#00A8F6] capitalize mt-[50px] text-[22px] font-[500]">
-              amjad
+              Gorge
             </p>
           </div>
         </SwiperSlide>

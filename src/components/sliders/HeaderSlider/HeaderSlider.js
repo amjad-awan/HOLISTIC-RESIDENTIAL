@@ -18,16 +18,22 @@ const HeaderSlider = () => {
         navigation={true}
         loop={true}
         modules={[Navigation]}
-        className="mySwiper h-[120vh]"
+        className="mySwiper  h-[300px] lg:h-[110vh]"
       >
-        <SwiperSlide className="__slide __first-slide sm:px-[30px] lg:px-[100px] flex justify-end items-center">
-          <Welcome />
+        <SwiperSlide className="__slide  __first-slide sm:px-[30px] lg:px-[100px] flex justify-end items-center">
+          <div className="hidden lg:block">
+            <Welcome />
+          </div>
         </SwiperSlide>
         <SwiperSlide className="__slide __sec-slide sm:px-[30px] lg:px-[100px] flex justify-end items-center">
-          <Welcome />
+          <div className="hidden lg:block">
+            <Welcome />
+          </div>
         </SwiperSlide>
         <SwiperSlide className="__slide __third-slide sm:px-[30px] lg:px-[100px] flex justify-end items-center">
-          <Welcome />
+          <div className="hidden lg:block">
+            <Welcome />
+          </div>
         </SwiperSlide>{" "}
       </Swiper>
     </>
