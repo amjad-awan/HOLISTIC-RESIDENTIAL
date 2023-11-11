@@ -14,7 +14,7 @@ const data = {
 
 const aboutUsData = {
   title1: " Who we are",
-  title2: " holistic residential home care",
+  title2: "Holistic Residential Home Care",
   para: `The Geriatric Psychiatry Outpatient Services provide comprehensive services for adults ages 65 and older with depression, anxiety, and cognitive function disorders. Our array of outpatient programs offer individual and group therapy, incorporating diagnostic evaluation, medication management, and more, for patients who do not require hospitalization.`,
   link: "/about-us",
 };
