@@ -9,7 +9,7 @@ import React from "react";
 
 const data = {
   title: "about us",
-  img: "/images/banner1.jpg",
+  img: "https://res.cloudinary.com/drcdjp6s7/image/upload/v1700672810/chella/banner1_pryenv.jpg",
 };
 
 const aboutUsData = {

@@ -4,7 +4,7 @@ import { IoCallSharp } from "react-icons/io5";
 
 const data = {
   title: "Contact Us",
-  img: "/images/bg101.jpg",
+  img: "https://res.cloudinary.com/drcdjp6s7/image/upload/v1700672808/chella/bg101_fcbaar.jpg",
   text:"Get in touch today to experience care that truly makes a difference."
 };
 import {GoMail} from "react-icons/go"

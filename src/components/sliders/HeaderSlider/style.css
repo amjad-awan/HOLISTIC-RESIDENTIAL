@@ -1,11 +1,11 @@
 .__first-slide {
-  background: url("../../../../public/images/join-hand.jpg");
+  background: url("https://res.cloudinary.com/drcdjp6s7/image/upload/v1700672152/chella/join-hand_yk7stz.jpg");
 }
 .__sec-slide {
-  background: url("../../../../public/images/7.jpg");
+  background: url("https://res.cloudinary.com/drcdjp6s7/image/upload/v1700591298/chella/7_bye0px.jpg");
 }
 .__third-slide {
-  background: url("../../../../public/images/crisis-care.jpg");
+  background: url("https://res.cloudinary.com/drcdjp6s7/image/upload/v1700594587/chella/crisis-care_tjdwcr.jpg");
 }
 .__slide {
   background-position: center;
@@ -16,4 +16,3 @@
   align-items: center;
   height: 100%;
 }
-

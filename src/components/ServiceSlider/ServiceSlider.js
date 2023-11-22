@@ -21,7 +21,7 @@ const ServiceSlider = () => {
     {
       icon: <IoMailOutline className="text-[28px] text-[#dae6eb]" />,
       title: "recruitment",
-      img: "/images/1.png",
+      img: "https://res.cloudinary.com/drcdjp6s7/image/upload/v1700588643/chella/1_dcw7r1.png",
       text: "Working for Holistic Residential Home Care is not only rewarding, butit is satisfying. We value our staff and provide them with the right tools they need to do their work. Whether its an office job or field job, we are all a family.",
       opacity: "#109ec55b",
       bg: "#109FC5",
@@ -29,7 +29,7 @@ const ServiceSlider = () => {
     {
       icon: <FaHandHoldingMedical className="text-[28px] text-[#dae6eb]" />,
       title: "Working for Holistic Residential Home Care is not only rewarding, but it is satisfying.",
-      img: "/images/2.png",
+      img: "https://res.cloudinary.com/drcdjp6s7/image/upload/v1700589373/chella/2_qrrp9r.png",
       text: "If someone you know needs a qualified, friendly and caring personal Career to assist them in the comfort of their home, get in touch with us. We provide live in care services across Florida.",
       opacity: "#04557b4b",
       bg: "#04567B",
@@ -37,7 +37,7 @@ const ServiceSlider = () => {
     {
       icon: <FaUserNurse className="text-[28px] text-[#dae6eb]" />,
       title: "nursing agency",
-      img: "/images/3.png",
+      img: "https://res.cloudinary.com/drcdjp6s7/image/upload/v1700590544/chella/3_uswhk5.jpg",
       text: "Holistic Residential Home Care provide flexible temporary and permanent staff in healthcare recruitment. From specialist nurse practitioners, to nurses and Careers, our dedicated team work closely",
       opacity: "#04557b4f",
       bg: "#04567B",
@@ -45,7 +45,7 @@ const ServiceSlider = () => {
     {
       icon: <HiUserGroup className="text-[28px] text-[#dae6eb]" />,
       title: "mental health",
-      img: "/images/4.png",
+      img: "https://res.cloudinary.com/drcdjp6s7/image/upload/v1700590544/chella/4_jl3yfu.jpg",
       text: "Holistic Residential Home Care provide flexible temporary and permanent staff in healthcare recruitment. From specialist nurse practitioners, to nurses and Careers, our dedicated team work closely with our NHS and private clients.",
       opacity: "#109ec55b",
       bg: "#109FC5",

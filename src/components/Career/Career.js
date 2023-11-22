@@ -8,7 +8,7 @@ const Career = ({ CareerData }) => {
     <div className="max-w-[1600px]  mx-auto grid sm:grid-cols-1 md:grid-cols-2">
       <div className="min-h-[300px] md:min-h-[100vh]">
         <img
-          src="/images/5.jpg"
+          src="https://res.cloudinary.com/drcdjp6s7/image/upload/v1700591297/chella/5_x7gghr.jpg"
           alt=""
           className="w-[100%] h-[100%] object-cover"
         />

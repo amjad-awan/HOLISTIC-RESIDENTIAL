@@ -11,7 +11,7 @@ const AboutUs = ({ aboutUsData }) => {
         
         <div>
           <img
-            src="/images/5.png"
+            src="https://res.cloudinary.com/drcdjp6s7/image/upload/v1700591298/chella/5_001_lrohk3.jpg"
             alt=""
             className="w-[100%] h-[90%] object-cover"
           />

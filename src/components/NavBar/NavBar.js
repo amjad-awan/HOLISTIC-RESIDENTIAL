@@ -23,7 +23,7 @@ const NavBar = () => {
       </button>
       <div className="__navbar-logo absolute left-[20%] lg:left-[10%] top-[50%] translate-y-[-50%] translate-x-[-50%]  w-[200px]">
         <img
-          src="/images/logo2.png"
+          src="https://res.cloudinary.com/drcdjp6s7/image/upload/v1700674297/chella/logo2_kvflba.jpg"
           alt=""
           className="w-[186px] object-contain h-[100px]"
         />
