@@ -60,7 +60,7 @@ const GetInTouch = () => {
       <div className="max-w-[1600px] bg-[#04547C] py-[80px]  mx-auto grid sm:grid-cols-1 md:grid-cols-2">
         <div className="h-[300px] mb-[30px] lg:md-0 lg:h-[800px] ">
           <img
-            src="https://res.cloudinary.com/drcdjp6s7/image/upload/v1700674996/chella/get-touch_qckt9y.jpg"
+            src="https://res.cloudinary.com/drcdjp6s7/image/upload/v1700675954/chella/get-touch-removebg-preview_qf0zal.png"
             alt=""
             className="w-[100%] h-[100%] object-contain"
           />
