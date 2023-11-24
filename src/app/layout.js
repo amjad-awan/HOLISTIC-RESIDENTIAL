@@ -6,9 +6,8 @@ import dynamic from "next/dynamic";
 
 import Head from "next/head";
 
-const NavBar = dynamic(() => import("@/components/NavBar/NavBar"), {
-  ssr: false,
-});
+import NavBar from "@/components/NavBar/NavBar";
+
 const Footer = dynamic(() => import("@/components/Footer/Footer"), {
   ssr: false,
 });
