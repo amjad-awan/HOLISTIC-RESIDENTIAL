@@ -12,7 +12,7 @@ const NavBar = () => {
 
   console.log(openNavBar);
   return (
-    <div className="bg-[#fff] relative overflow-hidden  px-[70px] h-[98px] max-w-[100%]">
+    <div className="bg-[#fff] relative overflow-hidden  px-[50px] h-[98px] max-w-[100%]">
       <button
         onClick={() => setOpenNavBar(!openNavBar)}
         className={`sm:flex absolute top-[50%] translate-y-[-50%] translate-x-[-50%] right-[20px] lg:hidden text-[${
