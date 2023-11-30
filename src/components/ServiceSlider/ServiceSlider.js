@@ -45,7 +45,7 @@ const ServiceSlider = () => {
     {
       icon: <HiUserGroup className="text-[28px] text-[#dae6eb]" />,
       title: "mental health",
-      img: "https://res.cloudinary.com/drcdjp6s7/image/upload/v1700590544/chella/4_jl3yfu.jpg",
+      img: "https://res.cloudinary.com/drcdjp6s7/image/upload/v1700673761/chella/4_honeb5.jpg",
       text: "Holistic Residential Home Care provide flexible temporary and permanent staff in healthcare recruitment. From specialist nurse practitioners, to nurses and Careers, our dedicated team work closely with our NHS and private clients.",
       opacity: "#109ec55b",
       bg: "#109FC5",
