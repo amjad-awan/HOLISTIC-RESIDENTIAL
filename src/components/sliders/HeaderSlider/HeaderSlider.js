@@ -24,11 +24,13 @@ const HeaderSlider = () => {
           <div className="hidden lg:block mt-[70px]  pr-[50px]">
             <Welcome />
           </div>
+
         </SwiperSlide>
         <SwiperSlide className="__slide __sec-slide  flex justify-end items-center">
           <div className="hidden lg:block mt-[70px]  pr-[50px]">
             <Welcome />
           </div>
+
         </SwiperSlide>
         <SwiperSlide className="__slide __third-slide  flex justify-end items-center">
           <div className="hidden lg:block mt-[70px] pr-[50px]">

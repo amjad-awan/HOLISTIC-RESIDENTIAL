@@ -1,6 +1,7 @@
 import React, { memo } from "react";
 
 const Video = () => {
+
   return (
     <div className="max-w-[1600px] sm:h-[300px] lg:h-[80vh] mx-auto">
       <video controls muted className="h-[100%] object-cover w-[100%]">

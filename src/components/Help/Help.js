@@ -3,7 +3,7 @@ import React, { memo } from "react";
 import { IoIosCall } from "react-icons/io";
 const Help = () => {
   return (
-    <div className="max-w-[1600px] text-center px-[20px] py-[60px]">
+    <div className="max-w-[1600px] mx-auto text-center px-[20px] py-[60px]">
       <div className="max-w-[900px] text-center  mx-auto">
         <h1 className="text-[45px] font-[600] text-[#00A8F6] ">
           IS IT TIME TO GET HELP?

@@ -5,9 +5,11 @@ import { Suspense } from "react";
 import dynamic from "next/dynamic";
 
 import Head from "next/head";
-
 import NavBar from "@/components/NavBar/NavBar";
 
+// const NavBar = dynamic(() => import("@/components/NavBar/NavBar"), {
+//   ssr: false,
+// });
 const Footer = dynamic(() => import("@/components/Footer/Footer"), {
   ssr: false,
 });

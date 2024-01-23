@@ -63,7 +63,7 @@ const servicesData = [
 
 const ServicesWrapper = () => {
   return (
-    <div className="max-w-[1660px] py-[70px]  bg-[#F7F7F7A3]">
+    <div className="max-w-[1660px] mx-auto py-[70px]  bg-[#F7F7F7A3]">
       <div className="container mx-auto sm:px-[30px]">
         <h1 className="__noto text-[#00A8F6] text-[40px] font-[600] text-left">
           Our Services

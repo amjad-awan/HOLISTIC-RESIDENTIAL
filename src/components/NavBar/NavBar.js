@@ -10,7 +10,6 @@ import { MdCall } from "react-icons/md";
 const NavBar = () => {
   const [openNavBar, setOpenNavBar] = useState(false);
 
-  console.log(openNavBar);
   return (
     <div className="bg-[#fff] relative overflow-hidden  px-[50px] h-[98px] max-w-[100%]">
       <button
