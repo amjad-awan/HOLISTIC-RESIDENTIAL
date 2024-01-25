@@ -9,7 +9,7 @@ const Help = () => {
           IS IT TIME TO GET HELP?
         </h1>
 
-        <p className="__robot text-[20px] text-[#2D2929] mt-[40px] ">
+        <p className="__robot text-[20px] text-[#2D2929] mt-[40px]">
           Learn more about your senior living options and explore the best fit
           for your care needs with this quick 4-5 minute survey.
         </p>

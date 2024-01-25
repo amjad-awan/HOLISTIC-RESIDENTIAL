@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 
 import Head from "next/head";
 import NavBar from "@/components/NavBar/NavBar";
+import WhatsApp from "@/components/WhatsApp/WhatsApp";
 
 // const NavBar = dynamic(() => import("@/components/NavBar/NavBar"), {
 //   ssr: false,
@@ -37,6 +38,7 @@ export default function RootLayout({ children }, data) {
         {children}
         <Suspense fallback={<></>}>
           <Footer />
+          <WhatsApp/>
         </Suspense>
       </body>
     </html>
